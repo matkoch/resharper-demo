@@ -6,18 +6,18 @@ using JetBrains.Annotations;
 
 namespace Demo.Refactorings
 {
-  public class PostfixTemplates
-  {
-    // var, SC, ret
-    public Car CreateCar (int seats, int maximumVelocity)
+    public class PostfixTemplates
     {
-      throw new NotImplementedException();
-    }
+        // var, SC, ret
+        public Car CreateCar (int seats, int maximumVelocity)
+        {
+            throw new NotImplementedException();
+        }
 
-    // foreach, notnull, check seats, yield
-    public IEnumerable<IVehicle> GetBigVehicles (IVehicle[] vehicles)
-    {
-      throw new NotImplementedException();
+        // foreach, notnull, check seats, yield
+        public IEnumerable<IVehicle> GetBigVehicles (IVehicle[] vehicles)
+        {
+            throw new NotImplementedException();
+        }
     }
-  }
 }

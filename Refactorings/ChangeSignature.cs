@@ -3,18 +3,18 @@ using System.Linq;
 
 namespace Demo.Refactorings
 {
-  public class ChangeSignature
-  {
-    public void A()
+    public class ChangeSignature
     {
-      B("best");
-      B("nice");
-      B("test");
-    }
+        public void A ()
+        {
+            B("best");
+            B("nice");
+            B("test");
+        }
 
-    public void B (string value)
-    {
-      Console.WriteLine(value);
+        public void B (string value)
+        {
+            Console.WriteLine(value);
+        }
     }
-  }
 }

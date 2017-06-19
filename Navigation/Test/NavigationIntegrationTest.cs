@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Demo.Navigation.Test
 {
-  public class NavigationIntegrationTest
-  {
-  }
+    public class NavigationIntegrationTest
+    {
+    }
 }

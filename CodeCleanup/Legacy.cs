@@ -1,17 +1,17 @@
 ﻿namespace Demo.CodeCleanup
 {
-  public class Legacy
-  {
-    private string myKey = "key";
-
-    public void Entry()
+    public class Legacy
     {
-      System.String a = M(myKey, true, 1);
-    }
+        private string myKey = "key";
 
-    string M(string key, bool enableSearch, int retryCount)
-    {
-      return null;
+        public void Entry ()
+        {
+            System.String a = M(myKey, true, 1);
+        }
+
+        string M (string key, bool enableSearch, int retryCount)
+        {
+            return null;
+        }
     }
-  }
 }

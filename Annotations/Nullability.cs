@@ -6,40 +6,40 @@ using JetBrains.Annotations;
 
 namespace Demo.Annotations
 {
-  public class Nullability
-  {
-    public void Entry()
+    public class Nullability
     {
-    }
+        public void Entry ()
+        {
+        }
 
-    private void OperateOnNonNull([NotNull] string key)
-    {
-    }
+        private void OperateOnNonNull ([NotNull] string key)
+        {
+        }
 
-    [NotNull]
-    //[CanBeNull]
-    private object GetOrCreate()
-    {
-      //return null;
-      return new object ();
-    }
+        [NotNull]
+        //[CanBeNull]
+        private object GetOrCreate ()
+        {
+            //return null;
+            return new object();
+        }
 
-    [ItemCanBeNull]
-    private Task<object> GetOrCreateAsync()
-    {
-      return Task.Run(() => new object());
-    }
+        [ItemCanBeNull]
+        private Task<object> GetOrCreateAsync ()
+        {
+            return Task.Run(() => new object());
+        }
 
-    [ItemCanBeNull]
-    private IEnumerable<string> GetStrings()
-    {
-      yield break;
-    }
+        [ItemCanBeNull]
+        private IEnumerable<string> GetStrings ()
+        {
+            yield break;
+        }
 
-    [ContractAnnotation("null => null; notnull => notnull")]
-    private string Transform(string a)
-    {
-      return a;
+        [ContractAnnotation("null => null; notnull => notnull")]
+        private string Transform (string a)
+        {
+            return a;
+        }
     }
-  }
 }
