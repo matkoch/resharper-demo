@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace Demo.CodeCleanup
 {
+  // ctor, cctor, dispose, equality, tostring
   public class FileLayout
   {
   }
