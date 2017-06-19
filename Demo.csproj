@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Annotations\Contract.cs" />
+    <Compile Include="Annotations\Nullability.cs" />
     <Compile Include="CodeCleanup\FileLayout.cs" />
+    <Compile Include="CodeCleanup\Legacy.cs" />
     <Compile Include="Navigation\Car.cs" />
     <Compile Include="Navigation\Test\FakeVehicle.cs" />
     <Compile Include="Navigation\Test\PrivateInvoke.cs" />
@@ -71,7 +74,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Assistance\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
