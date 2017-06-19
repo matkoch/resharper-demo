@@ -1,14 +1,14 @@
-﻿using System;
-using JetBrains.Annotations;
+﻿using System.IO;
 
 namespace Demo.Assistance
 {
-  public class LiveTemplates
-  {
-    [CanBeNull]
-    public object Entry()
+    public class LiveTemplates
     {
-      return null;
+        public void Entry()
+        {
+            MayThrow();
+        }
+
+        // br
     }
-  }
 }
