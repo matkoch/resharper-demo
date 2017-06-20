@@ -84,7 +84,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickFixes\Strings.cs" />
     <Compile Include="Refactorings\ChangeSignature.cs" />
-    <Compile Include="Refactorings\PostfixTemplates.cs" />
     <Compile Include="SSR\Basic.cs" />
     <Compile Include="Testing\Test.cs" />
   </ItemGroup>

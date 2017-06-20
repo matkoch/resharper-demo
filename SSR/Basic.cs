@@ -1,12 +1,19 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Demo.SSR
 {
     public class Basic
     {
-        public IEnumerable<int> M()
+        public void M(Dictionary<int, int> dictionary, int key)
         {
-            return em
+            if (dictionary.ContainsKey(key))
+            {
+                var value = dictionary[key];
+
+                var z = value * 5;
+                Console.WriteLine(value);
+            }
         }
     }
 }

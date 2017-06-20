@@ -1,17 +1,31 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Demo.Navigation;
 using JetBrains.Annotations;
 
 namespace Demo.Assistance
 {
     public class PostfixTemplates
     {
+        // new, ret
+        public Car CreateCar (int seats, int maximumVelocity)
+        {
+            throw new NotImplementedException();
+        }
+
+        // foreach, notnull, check seats, yield
+        public IEnumerable<IVehicle> GetBigVehicles (IVehicle[] vehicles)
+        {
+            throw new NotImplementedException();
+        }
+
         public void SB ()
         {
         }
 
-        public void M([CanBeNull] IEnumerable<char> chars)
+        public void M(IEnumerable<char> chars)
         {
         }
     }
