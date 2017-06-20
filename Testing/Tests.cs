@@ -1,9 +1,10 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using Xunit;
 
 namespace Demo.Testing
 {
-    public class Test
+    public class Tests
     {
         [Fact]
         public void Test1()
@@ -12,20 +13,17 @@ namespace Demo.Testing
         }
 
         [Fact]
-        public void Teste3242()
+        public void Test2()
         {
-            // convenient 
             B.M();
         }
     }
 
-
     public class A
     {
-
         public static void M ()
         {
-            Thread.Sleep(millisecondsTimeout: 5000);
+            // debug
         }
     }
 
@@ -33,7 +31,7 @@ namespace Demo.Testing
     {
         public static void M ()
         {
-            System.Console.WriteLine ("sodfoskdfp");
+            Console.WriteLine ("poskdfposdkf");
         }
     }
 }

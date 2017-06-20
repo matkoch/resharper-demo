@@ -59,7 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Annotations\Contract.cs" />
+    <Compile Include="Annotations\ModifiedClosure.cs" />
     <Compile Include="Annotations\Nullability.cs" />
+    <Compile Include="Annotations\StringFormatter.cs" />
+    <Compile Include="Assistance\LanguageInjections.cs" />
     <Compile Include="Assistance\LiveTemplates.cs" />
     <Compile Include="Assistance\PostfixTemplates.cs" />
     <Compile Include="CodeCleanup\FileLayout.cs" />
@@ -85,7 +88,7 @@
     <Compile Include="QuickFixes\Strings.cs" />
     <Compile Include="Refactorings\ChangeSignature.cs" />
     <Compile Include="SSR\Basic.cs" />
-    <Compile Include="Testing\Test.cs" />
+    <Compile Include="Testing\Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

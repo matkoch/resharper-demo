@@ -6,7 +6,7 @@ namespace Demo.Assistance
     {
         public void Entry()
         {
-            MayThrow();
+            //MayThrow();
         }
 
         // br
