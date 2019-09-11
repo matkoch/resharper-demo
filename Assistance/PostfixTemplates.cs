@@ -15,18 +15,14 @@ namespace Demo.Assistance
             throw new NotImplementedException();
         }
 
+        public void UseStringBuilder()
+        {
+        }
+
         // foreach, notnull, check seats, yield
         public IEnumerable<IVehicle> GetBigVehicles (IVehicle[] vehicles)
         {
             throw new NotImplementedException();
-        }
-
-        public void SB ()
-        {
-        }
-
-        public void M(IEnumerable<char> chars)
-        {
         }
     }
 }
