@@ -1,5 +1,9 @@
 ﻿namespace Demo.CodeCleanup
 {
+    // Code Styles
+    // Interactive editor config
+    // Code Cleanup
+    // Save As ...
     public class Legacy
     {
         private string myKey = "key";

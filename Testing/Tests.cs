@@ -9,6 +9,7 @@ namespace Demo.Testing
         [Fact]
         public void Test1()
         {
+            var a = 1_000_000 + 2 + 3 * 100;
             A.M();
         }
 
@@ -31,7 +32,10 @@ namespace Demo.Testing
     {
         public static void M ()
         {
-            Console.WriteLine ("poskdfposdkf");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine ("1111aasdadssd");
         }
     }
 }

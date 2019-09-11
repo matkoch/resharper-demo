@@ -33,6 +33,7 @@ namespace Demo.Navigation
      *   - Goto Recent Files/Edits
      *   
      *   - Goto Text: Ipsum -> QuickFixes
+     *   - IL Viewer
      *   
      */
     public interface IVehicle
