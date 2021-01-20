@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using JetBrains.Annotations;
 
-namespace Demo.Navigation.Extensions
+namespace ReSharperDemo.Navigation.Extensions
 {
     public static class ObjectExtensions
     {

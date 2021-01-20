@@ -1,7 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 
-namespace Demo.Annotations
+namespace ReSharperDemo.Annotations
 {
     public class Contract
     {

@@ -1,7 +1,4 @@
-using System;
-using System.Linq;
-
-namespace Demo.Navigation.Test
+namespace ReSharperDemo.Navigation.Test
 {
     public class CarTests : VehicleTestsBase
     {

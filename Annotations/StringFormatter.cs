@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 
-namespace Demo.Annotations
+namespace ReSharperDemo.Annotations
 {
     public class StringFormatter
     {

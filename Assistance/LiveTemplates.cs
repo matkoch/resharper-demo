@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace Demo.Assistance
+﻿namespace ReSharperDemo.Assistance
 {
     public class LiveTemplates
     {

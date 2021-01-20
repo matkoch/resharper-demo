@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Threading;
 using Xunit;
 
-namespace Demo.Testing
+namespace ReSharperDemo.Testing
 {
     public class Tests
     {

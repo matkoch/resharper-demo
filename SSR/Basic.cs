@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Demo.SSR
+namespace ReSharperDemo.SSR
 {
     public class Basic
     {

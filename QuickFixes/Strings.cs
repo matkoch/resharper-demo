@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace Demo.QuickFixes
+﻿namespace ReSharperDemo.QuickFixes
 {
     public class Strings
     {

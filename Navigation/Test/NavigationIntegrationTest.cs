@@ -1,7 +1,6 @@
 using System;
-using System.Linq;
 
-namespace Demo.Navigation.Test
+namespace ReSharperDemo.Navigation.Test
 {
     [Subject(typeof(Car), typeof(Position))]
     public class NavigationIntegrationTest

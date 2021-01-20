@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices.ComTypes;
-using Xunit.Sdk;
 
-namespace Demo.QuickFixes
+namespace ReSharperDemo.QuickFixes
 {
     public class Basics
     {
@@ -21,8 +17,8 @@ namespace Demo.QuickFixes
             var dictionary = new Dictionary<string, string>();
             foreach (var keyValue in dictionary)
             {
-                Console.WriteLine(keyValue.Key);
-                Console.WriteLine(keyValue.Value);
+                System.Console.WriteLine(keyValue.Key);
+                System.Console.WriteLine(keyValue.Value);
             }
         }
 

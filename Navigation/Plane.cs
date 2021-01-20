@@ -1,7 +1,6 @@
 using System;
-using System.Linq;
 
-namespace Demo.Navigation
+namespace ReSharperDemo.Navigation
 {
     public class Plane : VehicleBase
     {

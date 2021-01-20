@@ -1,4 +1,4 @@
-﻿namespace Demo.CodeCleanup
+﻿namespace ReSharperDemo.CodeCleanup
 {
     // Code Styles
     // Interactive editor config

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Linq;
 
-namespace Demo.Refactorings
+namespace ReSharperDemo.Refactorings
 {
     public class ChangeSignature
     {

@@ -1,15 +1,25 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Int64 x:Key="/Default/CodeInspection/CognitiveComplexityAnalysis/CSharpThreshold/@EntryValue">5</s:Int64>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">SOLUTION</s:String>
-	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IncludeWarningsInSwea/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=LocalizableElement/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MissingXmlDoc/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnassignedGetOnlyAutoProperty/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedAutoPropertyAccessor_002ELocal/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedMember_002EGlobal/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedTypeParameter/@EntryIndexedValue">DO_NOT_SHOW</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=UnusedVariable/@EntryIndexedValue">DO_NOT_SHOW</s:String>
-	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ARGUMENTS_LITERAL/@EntryValue">Named</s:String>
-	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ARGUMENTS_STRING_LITERAL/@EntryValue">Named</s:String>
 	<s:Boolean x:Key="/Default/Environment/SearchAndNavigation/EnableGotoEverything/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Field/=TYPE/Expression/@EntryValue">guessExpectedType("")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Field/=TYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Shortcut/@EntryValue">fake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A3908F20C817E46950243EA0904FF42/Text/@EntryValue">CreateInstance&lt;$TYPE$&gt;()</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F79FC0C0875E7249A1561BE945F6427E/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F79FC0C0875E7249A1561BE945F6427E/CustomPatternPlaceholder/=dict/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F79FC0C0875E7249A1561BE945F6427E/CustomPatternPlaceholder/=dict/Properties/=ExactType/@EntryIndexedValue">False</s:String>
@@ -41,5 +51,5 @@
 &#xD;
     $statements$&#xD;
 }</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F79FC0C0875E7249A1561BE945F6427E/Severity/@EntryValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/StructuralSearch/Pattern/=F79FC0C0875E7249A1561BE945F6427E/Severity/@EntryValue">SUGGESTION</s:String>
 	</wpf:ResourceDictionary>

@@ -1,4 +1,4 @@
-﻿namespace ReSharperDemo.Assistance
+namespace ReSharperDemo.Editing
 {
     public class LanguageInjections
     {

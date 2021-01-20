@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace Demo.Navigation
+﻿namespace ReSharperDemo.Navigation
 {
     public abstract class VehicleBase : IVehicle
     {

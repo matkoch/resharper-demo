@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Demo.Navigation;
-using JetBrains.Annotations;
+using ReSharperDemo.Navigation;
 
-namespace Demo.Assistance
+namespace ReSharperDemo.Assistance
 {
     public class PostfixTemplates
     {

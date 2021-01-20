@@ -1,17 +1,16 @@
 using System;
-using System.Linq;
-using Demo.Navigation.Extensions;
+using ReSharperDemo.Navigation.Extensions;
 
-namespace Demo.Navigation.Test
+namespace ReSharperDemo.Navigation.Test
 {
     public class VehicleTestsBase
     {
         public void Test ()
         {
-            IVehicle car = new Car (seats: 4, maximumVelocity: 250);
+            IVehicle car = new Car (4, 250);
 
-            car.Move (xOffset: 50, yOffset: 0);
-            car.Forward (xOffset: 400).Move (new Position (x: 500, y: 0));
+            car.Move (50, 0);
+            car.Forward (xOffset: 400).Move (new Position (500, 0));
 
             dynamic dynamicCar = car;
             dynamicCar.Move (1, 2);

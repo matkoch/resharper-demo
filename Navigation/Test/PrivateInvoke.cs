@@ -1,9 +1,7 @@
-using System;
 using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
 
-namespace Demo.Navigation.Test
+namespace ReSharperDemo.Navigation.Test
 {
     public static class PrivateInvoke
     {
